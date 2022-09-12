@@ -9,7 +9,7 @@ import mongoose, { ConnectOptions } from 'mongoose'
 
 dotenv.config()
 
-const PORT = process.env.PORT
+const PORT = 5000
 const app = express()
 app.use(bodyParser.json())
 
